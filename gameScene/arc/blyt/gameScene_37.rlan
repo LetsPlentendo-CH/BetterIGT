@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nw4r_layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2.0" xmlns="http://www.nintendo.co.jp/NW4R/LayoutEditor">
+  <head>
+    <create user="liamb" host="PC-ZUHAUSE" date="2019-11-21T14:34:57.2097943+01:00" source="" />
+    <title />
+    <comment />
+    <generator name="" version="1.0.0" />
+  </head>
+  <body>
+    <animTag name="inMarioCoin" startFrame="150" endFrame="160" animLoop="OneTime" fileName="inMarioCoin" descendingBind="false">
+      <comment />
+      <group name="C00_inMarioCoin" />
+    </animTag>
+    <rlan animType="PainSRT" startFrame="150" endFrame="160" convertStartFrame="150" convertEndFrame="160">
+      <animContent name="N_otasukeInfo_00">
+        <animPainSRTTarget target="TranslateY">
+          <key frame="150" value="-183" />
+          <key frame="160" value="-210" />
+        </animPainSRTTarget>
+      </animContent>
+    </rlan>
+    <rlan animType="VertexColor" startFrame="150" endFrame="160" convertStartFrame="150" convertEndFrame="160">
+      <animContent name="N_otasukeInfo_00">
+        <animVertexColorTarget target="PaneAlpha">
+          <key xsi:type="HermiteU8" frame="150" value="255" />
+          <key xsi:type="HermiteU8" frame="160" value="0" />
+        </animVertexColorTarget>
+      </animContent>
+    </rlan>
+  </body>
+</nw4r_layout>

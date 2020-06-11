@@ -1,0 +1,22 @@
+{
+	"name": "PrecisionTime",
+	"patches": [
+		{
+			"name": "PrecisionTime",
+			"symbolFile": "addresses.x",
+			"files": ["timerpatch.c"],
+			"hooks": [
+				{
+					"name": "UpdateGameTimer",
+					"type": "bl",
+					"EU_1": "0x800e3b28"
+                },
+                {
+                    "name": "nopUGT",
+                    "type": "nop",
+                    "EU_1": "0x800e3b34"
+                }
+			]
+		}
+	]
+}
