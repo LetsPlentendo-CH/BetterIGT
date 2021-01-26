@@ -12,10 +12,54 @@
 					"EU_1": "0x800e3b28"
                 },
                 {
-                    "name": "nopUGT",
+                    "name": "nopUpdateGameTimer",
                     "type": "nop",
                     "EU_1": "0x800e3b34"
-                }
+				},
+				{
+					"name": "gameSceneLoadTxt1",
+					"type": "bl",
+					"EU_1": "0x80158990"
+				},
+				{
+					"name": "startLevelHook",
+					"type": "bl",
+					"EU_1": "0x800bb8ac"
+				},
+				{
+					"name": "HookPlayerCreate",
+					"type": "bl",
+					"EU_1": "0x801443dc"
+				},
+				{
+					"name": "STAGE__beforeExecute_hook",
+					"type": "pointer",
+					"EU_1": "0x8098dc4c"
+				}
+			],
+			"filePatches": [
+				{
+					"type": "getoriginalfile",
+					"file": "Layout/gameScene/gameScene.arc",
+					"isolocation": "!SMNE01.wbfs",
+					"out": "gameScene.arc"
+				},
+				{
+					"type": "arcdecompress",
+					"file": "gameScene.arc",
+					"out": "gameScene"
+				},
+				{
+					"type": "compilebenzin",
+					"file": "!gameScene_37.xmlyt",
+					"out": "gameScene/arc/blyt/gameScene_37.brlyt"
+				},
+				{
+					"type": "arccompress",
+					"file": "gameScene",
+					"out": "gameScene.arc",
+					"export": "Layout/gameScene"
+				}
 			]
 		}
 	]

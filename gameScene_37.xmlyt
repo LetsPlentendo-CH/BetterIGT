@@ -296,6 +296,28 @@
 						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
 					</colors>
 				</entries>
+				<entries name="T_time_behind">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="237" g="58" b="55" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+				</entries>
+				<entries name="T_time_ahead">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="69" g="230" b="57" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+				</entries>
 				<entries name="P_timer_00">
 					<colors>
 						<forecolor r="0" g="0" b="0" a="0" />
@@ -2400,7 +2422,7 @@
 				<alpha>ff</alpha>
 				<padding>00</padding>
 				<translate>
-					<x>-36.0000000000000000000000000</x>
+					<x>-30.0000000000000000000000000</x>
 					<y>5.0000000000000000000000000</y>
 					<z>0.0000000000000000000000000</z>
 				</translate>
@@ -2536,7 +2558,7 @@
 				<alpha>ff</alpha>
 				<padding>00</padding>
 				<translate>
-					<x>-21.0000000000000000000000000</x>
+					<x>-19.0000000000000000000000000</x>
 					<y>5.0000152587890625000000000</y>
 					<z>0.0000000000000000000000000</z>
 				</translate>
@@ -2551,6 +2573,241 @@
 				</scale>
 				<size>
 					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			<tag type="txt1" name="T_time_01" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-19.0000000000000000000000000</x>
+					<y>-20.0000152587890625000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			<tag type="txt1" name="T_time_02" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-19.0000000000000000000000000</x>
+					<y>-45.0000152587890625000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			<tag type="txt1" name="T_time_03" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-19.0000000000000000000000000</x>
+					<y>-70.0000152587890625000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			<tag type="txt1" name="T_time_04" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-19.0000000000000000000000000</x>
+					<y>-95.0000152587890625000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			<tag type="txt1" name="T_time_05" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-19.0000000000000000000000000</x>
+					<y>-120.0000152587890625000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>135.30</width>
+					<height>28.80</height>
+				</size>
+				<length>0010-0010</length>
+				<material name="T_time_00" />
+				<font index="1">
+					<xsize>28.799999</xsize>
+					<ysize>28.799999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Left" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>ff19ff19ff19ff19ff19ff19ff190000</text>
+			</tag>
+			
+			<tag type="txt1" name="T_state_00" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-420.0000000000000000000000000</x>
+					<y>1</y>
+					<z>0</z>
+				</translate>
+				<rotate>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rotate>
+				<scale>
+					<x>0.8</x>
+					<y>1</y>
+				</scale>
+				<size>
+					<width>600</width>
 					<height>28.80</height>
 				</size>
 				<length>0010-0010</length>
